@@ -2,6 +2,7 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
   background: $wtf;
@@ -10,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Pacifico', cursive;
 }
 
 .button--flex {
@@ -21,8 +23,8 @@ body {
   margin-bottom: 10px;
   width: 600px;
   height: 300px;
-  padding: 8px;
-  border-radius: 10px;
+  padding: 16px 8px;
+  border-radius: 16px;
   resize: none;
   border: none;
   background-color: rgb(254, 255, 240);
@@ -36,7 +38,7 @@ body {
 }
 
 .title {
-  margin-bottom: 5px;
+  margin-bottom: 16px;
   color: rgb(225, 249, 255);
 }
 
@@ -53,21 +55,21 @@ body {
 .button--save:hover {
   background-color: rgb(198, 255, 201);
   box-shadow:
-  0 1.5px 1.2px rgba(0, 0, 0, 0.014),
-  0 3px 3.3px rgba(0, 0, 0, 0.028),
-  0 6px 5px rgba(0, 0, 0, 0.03),
-  0 9px 10.9px rgba(0, 0, 0, 0.042),
-  0 18.8px 18.4px rgba(0, 0, 0, 0.056),
-  0 24px 40px rgba(0, 0, 0, 0.06);
+  0 1.5px 1.2px rgba(198, 255, 201, 0.044),
+  0 3px 3.3px rgba(198, 255, 201, 0.058),
+  0 6px 5px rgba(198, 255, 201, 0.065),
+  0 9px 10.9px rgba(198, 255, 201, 0.072),
+  0 18.8px 18.4px rgba(198, 255, 201, 0.086),
+  0 24px 40px rgba(198, 255, 201, 0.09);
 }
 
 .button--load:hover {
   background-color: rgb(255, 187, 187);
   box-shadow:
-  0 1.5px 1.2px rgba(0, 0, 0, 0.014),
-  0 3px 3.3px rgba(0, 0, 0, 0.028),
-  0 6px 5px rgba(0, 0, 0, 0.03),
-  0 9px 10.9px rgba(0, 0, 0, 0.042),
-  0 18.8px 18.4px rgba(0, 0, 0, 0.056),
-  0 24px 40px rgba(0, 0, 0, 0.06);
+  0 1.5px 1.2px rgba(255, 187, 187, 0.044),
+  0 3px 3.3px rgba(255, 187, 187, 0.058),
+  0 6px 5px rgba(255, 187, 187, 0.065),
+  0 9px 10.9px rgba(255, 187, 187, 0.072),
+  0 18.8px 18.4px rgba(255, 187, 187, 0.086),
+  0 24px 40px rgba(255, 187, 187, 0.09);
 }
